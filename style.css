@@ -28,18 +28,24 @@ body {
     background-color: hsl(31, 77%, 52%);
     padding: 2em;
     border-radius: 5px 0 0 5px;
+    /*width: 93%;*/
+    height: 50vh;
     
 }
 
 .card2 {
     background-color: hsl(184, 100%, 22%);
     padding: 2em;
+    /*width: 93%;*/
+    height: 50vh;
 }
 
 .card3 {
     background-color: hsl(179, 100%, 13%);
     padding: 2em;
     border-radius: 0 5px 5px 0;
+    width: 93%;
+    height: 50vh;
 }
 
 h3 {
@@ -55,18 +61,22 @@ p {
     font-size: 10px;
     padding-bottom: 25px;
     line-height: 15px;
+    max-lines: 3;
 }
 
 /*----Buttons----*/
-.card1 button {
+.card1 button a {
+    text-decoration: none;
     color: hsl(31, 77%, 52%);
 }
 
-.card2 button {
+.card2 button a {
+    text-decoration: none;
     color: hsl(184, 100%, 22%);
 }
 
-.card3 button {
+.card3 button a {
+    text-decoration: none;
     color: hsl(179, 100%, 13%);
 }
 
@@ -95,6 +105,7 @@ button:hover {
 }
 
 
+
 /*---------- CSS Grid ----------*/
 
 .gridding {
@@ -118,7 +129,8 @@ button:hover {
 .item-A {
     background-color: orangered;
     grid-area: a;
-    padding-left: 2em;
+    height: 200px;
+    /*padding-left: 2em;*/
 }
 
 .item-B {
@@ -129,6 +141,7 @@ button:hover {
 .item-C {
     background-color: green;
     grid-area: c;
+    height: 220px;
 }
 
 .item-D {
@@ -137,6 +150,6 @@ button:hover {
 }
 
 .item-E {
-    background-color: rgb(214, 11, 11);
+    background-color: rgb(0, 119, 255);
     grid-area: e;
 }
